@@ -3,6 +3,7 @@ function add(n1: number, n2: number) {
 	return result;
 }
 
+const ='oi'
 console.log(add(3, 5));
 
 const number1: number = 5;
