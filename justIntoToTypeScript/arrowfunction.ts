@@ -8,5 +8,7 @@ const printOut = (output: number | string) => {
 	console.log(output);
 };
 
+
+
 printOut(10);
 printOut("10");
