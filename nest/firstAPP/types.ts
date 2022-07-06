@@ -1,5 +1,3 @@
-
-
 // Object Literals
 let point: { x: number; y: number } = {
     x: 20,
