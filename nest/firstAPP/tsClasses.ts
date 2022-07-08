@@ -1,6 +1,17 @@
 // Classes in TS
 
 class Vehicle {
+    color: string = 'red'
+
+    constructor(color: string) {
+        this.color = color
+
+    }
+
+
+
+
+
     public drive(): void {
         console.log('we are driving')
     }
@@ -34,7 +45,8 @@ class Car extends Vehicle {
     }
 }
 
-const veiculo = new Vehicle()
-const carro = new Car()
+const veiculo = new Vehicle('red')
+const carro = new Car('red')
 
 carro.driv()
+console.log(carro.color)

@@ -15,7 +15,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 var Vehicle = /** @class */ (function () {
-    function Vehicle() {
+    function Vehicle(color) {
+        this.color = 'red';
+        this.color = color;
     }
     Vehicle.prototype.drive = function () {
         console.log('we are driving');
@@ -52,6 +54,7 @@ var Car = /** @class */ (function (_super) {
     };
     return Car;
 }(Vehicle));
-var veiculo = new Vehicle();
-var carro = new Car();
+var veiculo = new Vehicle('red');
+var carro = new Car('red');
 carro.driv();
+console.log(carro.color);
